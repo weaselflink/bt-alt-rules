@@ -1,27 +1,43 @@
 # bt-alt-rules
 Draft for alternative (simpler/quicker) rules for Battletech.
 
-# things to solve
+# Goals of these rules
+Drastically simplify the existing rules to speed up gameplay while keeping the fun parts.
+## Simplification approach
+ - Reduce the number of dice rolls drastically.
+ - Use precomputed target numbers (required dice roll) where possible.
+ - Even out probabilities by using d20.
+ - Avoid large number of complex situational modifiers to dice rolls.
+## Stuff to keep
+ - Basically everything on the mech sheet.
+ - Having your mech slowly blown to pieces.
+ - Ability to use existing mech designs without making them all feel the same.
+ - Keep all the decisions about target selection and heat management.
+## Extra stuff
+ - Allow further RPG elements.
+ - Make Mechwarriors feel unique.
+
+# Things to solve
 - how many weapons hit??? 1xppc+1xlrm20 vs 12xmedlaser???
 - hit zones???
 
-# order of turns
-## alternative 1
+# Order of turns
+## Alternative 1
  - every mech rolls initiative: d20 + initiative skill + commander bonus
  - highest initiative goes first
-### unresolved
+### Unresolved
  - going last could be desirable?
  - bonus based on mech type (light +2, medium +1, heavy 0, assault -1)?
  - commander bonus?
 	
-## alternative 2
+## Alternative 2
  - each team rolls initiative: d20 + commander initiative skill
  - highest initiative chooses to go first or last
  - mechs alternate turns
-### unresolved
+### Unresolved
  - how to alternate with unequal mechs on teams? (rules should already exist)
 
-# taking turns
+# Taking turns
 every mech gets one move action and one fire action
  - can be taken in any order
  - each action must be completed separately (no partial moves)
@@ -31,7 +47,7 @@ every mech gets one move action and one fire action
  - only one move action can be a jump
  - effects of firing a resolved before another mech takes a turn
 
-### unresolved
+### Unresolved
  - double move a good idea?
  - does move generate heat?
  - ability to return fire?
@@ -55,12 +71,12 @@ A mech can use it's fire action to perform a second move action using all the ru
 normal move action. If the first move action was a jump, the second move action can't be a jump
 and vice versa.
 
-### unresolved
+### Unresolved
  - heat created by moving (especially jumping)
  - minimal movement
  - movement modifiers (e.g. damage)
 
-# evasion value
+# Evasion value
 each mech has an evasion value (like AC in D&D):
  - base 10
  - \+ (walking speed - 4)
@@ -73,7 +89,7 @@ this is the base to hit the mech on d20
 if the mech looses walking speed due to damage, evasion value 
 is adjusted immediately
 
-### unresolved
+### Unresolved
  - modifications to hit chance (woods, weapon range, cover)?
  - roll every weapon?
  - weapon ranges?
