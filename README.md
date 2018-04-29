@@ -39,7 +39,7 @@ every mech gets one move action and one fire action
 # evasion value
 each mech has an evasion value (like AC in D&D):
  - base 10
- - + (walking speed - 4)
+ - \+ (walking speed - 4)
  - light +2, medium +1, heavy 0, assault -1
  - modified by pilot skill (-1? to +4?)
 this is the base to hit the mech on d20
