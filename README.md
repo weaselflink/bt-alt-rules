@@ -35,7 +35,28 @@ every mech gets one move action and one fire action
  - double move a good idea?
  - does move generate heat?
  - ability to return fire?
-	
+
+# Movement
+## Movement speed
+Movement speed is identical to the old walking speed value (example: locust 8, atlas 3).
+## Move action
+When performing a move action (normal move action), the mech can move a number of hexes up to 
+it's movement speed. The mech can end it's movement facing any direction desired.
+## Jumping
+Instead of moving normally a mech with jump jets can move a number of hexes up to it's jumping
+speed (jumping range), as with a normal move action the mech can face any direction after the jump.
+A mech can only jump once per round, so when using a second move action only one of them can be 
+a jump. When jumping all terrain is ignored and the mech can always move as many hexes as it's
+current jumping speed is when jumping.
+## Sprinting (2nd move action)
+A mech can use it's fire action to perform a second move action using all the rules for the 
+normal move action. If the first move action was a jump, the second move action can't be a jump
+and vice versa.
+
+### unresolved
+ - difficult terrain
+ - heat created by moving (especially jumping)
+
 # evasion value
 each mech has an evasion value (like AC in D&D):
  - base 10
