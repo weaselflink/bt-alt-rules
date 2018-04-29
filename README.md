@@ -41,7 +41,9 @@ every mech gets one move action and one fire action
 Movement speed is identical to the old walking speed value (example: locust 8, atlas 3).
 ## Move action
 When performing a move action (normal move action), the mech can move a number of hexes up to 
-it's movement speed. The mech can end it's movement facing any direction desired.
+it's movement speed. The mech can end it's movement facing any direction desired. Each hex moved
+through (including the destination hex, excluding the starting hex) which contains difficult terrain 
+(e.g. woods, swamps, water of a certain depth) counts as two hexes moved.
 ## Jumping
 Instead of moving normally a mech with jump jets can move a number of hexes up to it's jumping
 speed (jumping range), as with a normal move action the mech can face any direction after the jump.
@@ -54,8 +56,9 @@ normal move action. If the first move action was a jump, the second move action 
 and vice versa.
 
 ### unresolved
- - difficult terrain
  - heat created by moving (especially jumping)
+ - minimal movement
+ - movement modifiers (e.g. damage)
 
 # evasion value
 each mech has an evasion value (like AC in D&D):
