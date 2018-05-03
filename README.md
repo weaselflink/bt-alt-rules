@@ -96,3 +96,10 @@ is adjusted immediately
  - should rolling higher than required give a benefit?
  - using modifiers or D&D style advantage/disadvantage
   
+# Firing
+## Problems
+ - The number of dice rolls required is to high.
+ - Calculating the required rolls can be tedious (unless you only have 12 medium lasers).
+ - Hit location tables are too random and are too similar for each side.
+ - Number of missiles that hit is independent of the actual difficulty to hit.
+ - Crit location rolls have to be rerolled.
