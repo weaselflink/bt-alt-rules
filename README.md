@@ -103,3 +103,4 @@ is adjusted immediately
  - Hit location tables are too random and are too similar for each side.
  - Number of missiles that hit is independent of the actual difficulty to hit.
  - Crit location rolls have to be rerolled.
+ - See [example](./firing-phase-examples.md).
